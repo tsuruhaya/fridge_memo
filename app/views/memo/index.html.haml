@@ -1,0 +1,60 @@
+.wrapper
+  .header
+    .header-content
+      .header-content__body
+        %li
+          = link_to "冷蔵庫", "#", class: "header-content__body__fridge"
+        %li
+          = link_to "冷凍庫", "#", class: "header-content__body__frozon"
+
+  .main 
+    .fridge
+      .fridge-ingredient
+        %li
+          = link_to "肉類", "#", class: "fridge__meat"
+          %i.fas.fa-bacon
+        %li
+          = link_to "魚介類", "#", class: "fridge__seafood"
+          %i.fas.fa-fish
+        %li
+          = link_to "野菜", "#", class: "fridge__veg"
+          %i.fas.fa-carrot
+        %li
+          = link_to "果物", "#", class: "fridge__fruite"
+          %i.fas.fa-apple-alt
+        %li
+          = link_to "乳製品", "#", class: "fridge__daily"
+          %i.fas.fa-cheese
+        %li
+          = link_to "飲料", "#", class: "fridge__drink"
+          %i.fas.fa-glass-whiskey
+        %li
+          = link_to "デザート", "#", class: "fridge__sweets"
+          %i.fas.fa-cookie
+        %li
+          = link_to "調味料", "#", class: "fridge__seasoning"
+          %i.fas.fa-pepper-hot
+        %li
+          = link_to "その他", "#", class: "fridge__others"
+          %i.fab.fa-qq
+    .right-fridge
+      雨
+    -# .frozon
+    -#   .frozon-ingredient
+    -#   %li
+    -#     = link_to "肉類", "#", class: "frozon__meat"
+    -#     %i.fas.fa-bacon
+    -#   %li
+    -#     = link_to "野菜", "#", class: "frozon__veg"
+    -#     %i.fas.fa-carrot
+    -#   %li
+    -#     = link_to "アイス", "#", class: "frozon__ice-cream"
+    -#     %i.fas.fa-ice-cream
+    -#   %li
+    -#     = link_to "その他", "#", class: "frozon__others"
+    -#     %i.fab.fa-qq
+    -# .memo2
+    -#   賞味期限
+
+    -# .memo3
+    -#   購入予定
