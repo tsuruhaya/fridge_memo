@@ -1,0 +1,25 @@
+.wrapper
+  .top
+    .top-content
+      %h1.top-content__title
+        Fridge Memo
+        = image_tag "2016116.png", class: "top-logo"
+      
+        %p.top-content__link
+          = link_to "新規登録", "#", class: "top-content__link--sign"
+          = link_to "ログイン", "#", class: "top-content__link--login"
+
+  .main-top
+    .main-tops
+      %h1.main-tops__title
+        Fridge Memoとは
+        %ul
+          %li.main-tops__list
+            冷蔵庫の管理ができる
+          %li.main-tops__list
+            買い足しが必要なものがメモできる
+            
+      .main-tops__image
+        = image_tag 'illustrain01-tyoumiryou01.png', class: "right-image"
+        = image_tag 'illustrain02-vegetable10.png', class: "right-image"
+        = image_tag 'illustrain04-sweets06.png', class: "right-image"
