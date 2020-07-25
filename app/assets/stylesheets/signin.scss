@@ -1,0 +1,42 @@
+.signin{
+  .log-in{
+    text-align: center;
+    display: block;
+    width: 700px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: #FFC7AF;
+    &__header{
+      padding: 24px 16px 30px;
+      margin: auto;
+      &__field{
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 20px;
+        &__form{
+          margin: 0;
+          font-size: 18px;
+          padding: 10px;
+          lable{
+            font-weight: bold;
+            float: left;
+          }
+          &__content{
+            &--1{
+              height: 48px;
+              width: 100%;
+              margin: 8px 0 0;
+              padding: 10px 16px 8px;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+      .login-in{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+      }
+    }
+  }
+}
